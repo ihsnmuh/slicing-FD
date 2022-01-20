@@ -18,14 +18,27 @@
 .paginations {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 30px;
   margin-top: 4rem;
+  gap: 2rem;
 }
 
-.paginations .pagination {
+.paginations-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+
+.paginations .pagination,
+.paginations-1 .pagination {
   text-decoration: none;
   color: #dc294f;
 }
@@ -222,6 +235,10 @@
 
 .mb-40 {
   margin-bottom: 2.5rem;
+}
+
+.mb-80 {
+  margin-bottom: 5rem;
 }
 
 .me-20 {

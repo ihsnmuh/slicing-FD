@@ -417,3 +417,45 @@
   width: 150px;
   height: 110px;
 }
+
+/* Footer */
+.container-footer {
+  padding: 1rem 10rem;
+  border-top: 1px solid #ccd0dd;
+}
+
+.container-footer .menus-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.container-footer .menus-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container-footer .menus-footer ul li {
+  margin-bottom: 1rem;
+}
+
+.container-footer .menus-footer a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.container-footer .bottom-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-footer .bottom-footer .sosmed-icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-right: 5.2rem;
+}
