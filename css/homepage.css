@@ -459,3 +459,25 @@
   gap: 1rem;
   padding-right: 5.2rem;
 }
+
+/* Bottom ads */
+
+.container-bottom-ads {
+  display: flex;
+  justify-content: center;
+}
+
+.ads-top-frame {
+  height: 50px;
+  width: 970px;
+  background-color: #d8d8d8;
+}
+
+.ads-text {
+  height: 100%;
+  color: #5a5a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
