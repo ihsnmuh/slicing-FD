@@ -448,6 +448,11 @@
   font-weight: 500;
 }
 
+.app-download .store {
+  display: flex;
+  gap: 1rem;
+}
+
 .container-footer .bottom-footer {
   display: flex;
   justify-content: space-between;
@@ -457,12 +462,13 @@
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  padding-right: 5.2rem;
+  padding-right: 6rem;
 }
 
 /* Bottom ads */
 
 .container-bottom-ads {
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
 }
