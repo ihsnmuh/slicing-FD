@@ -9,7 +9,7 @@ How to run this web app in local:
 ```bash
 git clone https://github.com/ihsnmuh/slicing-FD.git
 
-cd next-fd/
+cd slicing-FD/
 
 run with live server
 
